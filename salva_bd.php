@@ -59,7 +59,7 @@ $pass_conf = $_POST['password_confirmation'];
         <META HTTP-EQUIV=REFRESH CONTENT='0;URL=http://127.0.0.1/Projetos/Formulario%2002/'>
         ";
     }elseif ($senha !== $pass_conf) {
-        $_SESSION['vazio_confirmacao'] = "Senhas diferentes";
+        $_SESSION['vazio_confirmacao'] = "Senhas iguais";
     
         echo "
         <META HTTP-EQUIV=REFRESH CONTENT='0;URL=http://127.0.0.1/Projetos/Formulario%2002/'>
